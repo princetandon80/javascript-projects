@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    padding: 1.2rem;
+}
+
+h2{
+    color:black;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.board{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1300px;
+    margin:0  auto;
+    gap: 15px;
+}
+
+
+.list{
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 8px;
+    width:30% ;
+    min-height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.list h2{
+    color:#555;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.card{
+    background-color: beige;
+    color:black;
+    padding: 3rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: grab;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     transition: transform 0.2s;
+}
+
+.card:active{
+    cursor: grabbing;
+    transform: scale(1.1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+@media (max-width:768px) {
+    .board{
+        flex-direction: column;
+        align-items: center;
+    }
+    .list{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.list.over{
+    background-color:white;
+}
+
