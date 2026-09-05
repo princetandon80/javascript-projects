@@ -62,6 +62,11 @@ The **GitHub User Finder** communicates with the GitHub REST API to retrieve rea
 
 The **Kanban Board** manages tasks using JavaScript and stores the board state in the browser's LocalStorage, allowing tasks to remain available after refreshing the page.
 
+I have taken help and reference while watching free code camp videos .
+
+credit 
+free code camp
+
 ---
 
 ## How to Run
