@@ -1,48 +1,72 @@
-# GitHub User Finder
+# JavaScript Projects 🚀
 
-A simple GitHub User Finder web application built using HTML, CSS, and JavaScript.
+A collection of web development projects built using HTML, CSS, and JavaScript.  
+These projects focus on practicing DOM manipulation, API integration, event handling, drag and drop functionality, and browser storage.
 
-## Features
+---
 
-- Search for GitHub users by username
-- Display GitHub profile information
-- Show profile picture
-- Show user's name and username
-- Display followers and following
-- Display public repositories
-- Provide a link to the user's GitHub profile
+## 1. GitHub User Finder 🔎
 
-## Technologies Used
+A web application that allows users to search for GitHub profiles and view important account information in real time.
+
+### Features
+
+- Search GitHub users by username
+- Display profile picture, name, and username
+- Show follower and following counts
+- Display public repository count
+- Direct link to the user's GitHub profile
+- Fetches real-time data using the GitHub API
+
+### Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- GitHub API
+- GitHub REST API
+
+---
+
+## 2. Simple Kanban Board 📋
+
+A task management application that helps organize tasks using a classic Kanban workflow:
+
+**To Do → In Progress → Done**
+
+### Features
+
+- Create new task cards
+- Edit existing tasks
+- Delete tasks
+- Drag and drop tasks between columns
+- Save tasks using LocalStorage
+- Persist board data after refreshing the browser
+- Responsive and clean user interface
+
+### Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- HTML5 Drag and Drop API
+- LocalStorage
+- DOM Manipulation
+
+---
 
 ## How It Works
 
-The application uses the GitHub API to fetch user information based on the username entered by the user.
+Both applications run directly in the browser.
+
+The **GitHub User Finder** communicates with the GitHub REST API to retrieve real-time user information.
+
+The **Kanban Board** manages tasks using JavaScript and stores the board state in the browser's LocalStorage, allowing tasks to remain available after refreshing the page.
+
+---
 
 ## How to Run
 
-1. Clone this repository.
-2. Open the project folder.
-3. Open `github.html` in your browser.
-4. Enter a GitHub username and search.
+1. Clone this repository:
 
-## Purpose
-
-This project was created to practice JavaScript, API integration, DOM manipulation, and working with external data.
-
-## Credits
-
-This project was created for learning and practice.
-This project was built while following a tutorial as part of my learning journey.
-
-Tutorial source: freeCodeCamp
-
-https://www.freecodecamp.org/
-
-
-
-Thanks to freeCodeCamp for the tutorial and learning resources.
+```bash
+git clone https://github.com/princetandon80/javascript-projects.git
